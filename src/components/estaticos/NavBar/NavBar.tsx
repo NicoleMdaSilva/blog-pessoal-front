@@ -186,6 +186,11 @@ export default function NavBar() {
               About
             </Typography>
           </Link>
+          <Link to='/login'>
+            <Typography className={classes.title} variant="h6" noWrap>
+              Login
+            </Typography>
+          </Link>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
