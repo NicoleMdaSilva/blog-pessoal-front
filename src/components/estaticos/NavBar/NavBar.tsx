@@ -182,13 +182,27 @@ export default function NavBar() {
             </Typography>
           </Link>
           <Link to='/about'>
-           <Typography className={classes.title} variant="h6" noWrap>
+            <Typography className={classes.title} variant="h6" noWrap>
               About
             </Typography>
           </Link>
           <Link to='/login'>
             <Typography className={classes.title} variant="h6" noWrap>
               Login
+            </Typography>
+          </Link>
+          <Typography variant="h6" color="inherit">
+            postagens
+          </Typography>
+          <Typography variant="h6" color="inherit">
+            temas
+          </Typography>
+          <Typography variant="h6" color="inherit">
+            cadastrar tema
+          </Typography>
+          <Link to='/login' className='text-decorator-none'>
+            <Typography variant="h6" color="inherit">
+              logout
             </Typography>
           </Link>
           <div className={classes.search}>
